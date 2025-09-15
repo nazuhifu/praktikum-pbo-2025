@@ -2,7 +2,6 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -32,7 +31,6 @@ function HomepageHeader() {
         <div className={styles.floatingElement}></div>
         <div className={styles.floatingElement}></div>
         <div className={styles.floatingElement}></div>
-        <div className={styles.floatingElement}></div>
       </div>
     </header>
   );
@@ -44,16 +42,6 @@ export default function Home() {
     <Layout title={`${siteConfig.title} - Platform Pembelajaran PBO Terbaik`} description="Platform pembelajaran Pemrograman Berorientasi Objek terbaik dengan materi interaktif, tutorial praktis, dan studi kasus nyata.">
       <HomepageHeader />
       <main>
-        {/* Why Learn PBO Section */}
-        <section className={styles.whySection}>
-          <div className="container">
-            <div className={styles.sectionHeader}>
-              <h2 className={styles.sectionTitle}>Kenapa Belajar PBO?</h2>
-              <p className={styles.sectionSubtitle}>Pemrograman Berorientasi Objek adalah fondasi penting dalam pengembangan software modern</p>
-            </div>
-          </div>
-        </section>
-
         {/* Learning Path Section */}
         <section className={styles.pathSection}>
           <div className="container">
